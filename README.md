@@ -11,7 +11,6 @@ Projeto para monitoramento contínuo de vazamentos usando **NodeMCU 1.0 (ESP8266
 | **NodeMCU 1.0 (ESP8266)** | Placa de desenvolvimento com Wi-Fi integrado                          |
 | **Sensor de Água/Waterflow** | Modelo compatível com saída digital (ex: YF-S201)                     |
 | **Regulador de Tensão**    | LM7805 ou similar (conversão para 3.3V seguros)                        |
-| **Resistor 10kΩ**          | Pull-down para o sensor                                                |
 | **Fonte de Alimentação**   | 5V (USB ou bateria externa)                                           |
 | **Jumpers e Protoboard**   | Conexões seguras                                                      |
 
@@ -42,4 +41,7 @@ Adicione estas bibliotecas via **Sketch > Include Library > Manage Libraries**:
 2. **Configure a NodeMCU 1.0 na IDE**  
    - Em **Tools > Board**, selecione: `NodeMCU 1.0 (ESP-12E Module)`  
    - Ajuste a velocidade para **115200 baud** no Serial Monitor.
+
+3. **Insale as Bibliotecas listadas nas primeiras linhas do arquivo.**
+   - Veja as Libs no começo do arquivo e busque por elas dentro da aba de libs do Arduino2
 
