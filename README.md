@@ -1,4 +1,4 @@
-# 🚨 Sistema de Detecção de Vazamento com NodeMCU 1.0 (ESP8266) e Sensor de Água
+# 🚨 Sistema de Detecção de Vazão de Água com NodeMCU 1.0 (ESP8266) e Sensor de Água
 
 Projeto para monitoramento contínuo de vazão de água usando **NodeMCU 1.0 (ESP8266)** com regulador de tensão e sensor de fluxo de água (*waterflow*).
 
