@@ -1,6 +1,6 @@
 # 🚨 Sistema de Detecção de Vazamento com NodeMCU 1.0 (ESP8266) e Sensor de Água
 
-Projeto para monitoramento contínuo de vazamentos usando **NodeMCU 1.0 (ESP8266)** com regulador de tensão e sensor de fluxo de água (*waterflow*).
+Projeto para monitoramento contínuo de vazão de água usando **NodeMCU 1.0 (ESP8266)** com regulador de tensão e sensor de fluxo de água (*waterflow*).
 
 ---
 
@@ -43,5 +43,5 @@ Adicione estas bibliotecas via **Sketch > Include Library > Manage Libraries**:
    - Ajuste a velocidade para **115200 baud** no Serial Monitor.
 
 3. **Insale as Bibliotecas listadas nas primeiras linhas do arquivo.**
-   - Veja as Libs no começo do arquivo e busque por elas dentro da aba de libs do Arduino2
+   - Veja as bibliotecas no começo do arquivo e busque por elas dentro da aba de libs do Arduino2
 
